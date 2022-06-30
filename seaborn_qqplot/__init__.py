@@ -143,7 +143,7 @@ def pplot(data,
     grid.map(plot_map)
 
     if hue:
-        labels = data[hue].unique()[::-1]
+        labels = data[hue].unique()
         n_colors = len(labels)
     
         # 'seabornic' handling of palettes
